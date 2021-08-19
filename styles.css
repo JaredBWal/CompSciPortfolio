@@ -13,7 +13,7 @@ div.top_bar_menu{
 
 
 #top_bar_menu_ul{
-	
+	text-align: center;
 	padding-left: 50px;
 	padding-right: 50px;
 }
@@ -128,6 +128,86 @@ div.profile_description{
 	vertical-align: middle;
 
 	margin-left: 25px;
-	background-color: lightblue;
 
 }
+
+.cellular_video_section{
+	position: relative;
+	margin-top: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+
+.cellular_video_section video{
+	position: relative;
+	display: block;
+	
+ 	margin-left: auto;
+ 	margin-right: auto;
+
+ 	width: 70%;
+ 	height: auto;
+
+ 	border: 3px solid black;
+
+}
+
+#cellular_title{
+	text-align: center;
+
+}
+
+.github_link_btn{
+	position: relative;
+	display: block;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	color: rgb(255, 255, 255);
+	background-color: rgba(136, 179, 201, 1);
+
+
+	width: 250px;
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+
+	border-radius: 8px;
+
+}
+
+
+
+
+
+.project_text_section{
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+
+.project_what_i_learned_text{
+
+ 	
+
+}
+
+.project_cellular_map_modes_figure img{
+	width: 350px;
+ 	border: 3px solid black;  
+}
+
+.project_cellular_map_modes_figure{
+    display: inline-block;
+
+}
+
+
+
+
+
+

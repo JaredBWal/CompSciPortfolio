@@ -6,16 +6,16 @@
 </head>
 <body>
 <script src="scripts/script.js"></script>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 <div class='main'>
 	<div class='top_bar'>
 		<div class = 'top_bar_menu'>
 			<ul id='top_bar_menu_ul'>
 
-				<button onclick="location.href='index.html'" class="top_bar_menu_list_button">Homes</button>
-				<button onclick="location.href='pages/projects.html'" class="top_bar_menu_list_button">Projects</button>
-				<button onclick="location.href='pages/projects.html'" class="top_bar_menu_list_button">About</button>
-				<button onclick="location.href='pages/projects.html'" class="top_bar_menu_list_button">Contact</button>
+				<button onclick="location.href='../../index.html'" class="top_bar_menu_list_button">Homes</button>
+				<button onclick="location.href='../projects.html'" class="top_bar_menu_list_button">Projects</button>
+				<button onclick="location.href='../projects.html'" class="top_bar_menu_list_button">About</button>
+				<button onclick="location.href='../projects.html'" class="top_bar_menu_list_button">Contact</button>
 
 			</ul>
 
@@ -24,16 +24,50 @@
 	</div>
 
 	<div class='center_page'>
-		<div class='profile_description'>
+		<h1 id='cellular_title'>Cellular Automata Simulation</h1>
+		<button onclick=" window.open('https://github.com/JaredBWal/Colony-Cellular-Automata','_blank')" class="github_link_btn">GitHub Link</button>
 
-			<img id='profile_picture_icon' src="images/profilePicture.jpeg" alt="Profile Picture">
+		<div class='cellular_video_section'>
 
-			<div class='profile_text_description'>
-				<h2>Welcome</h2>
-		
-				<p>Hello, my name is Jared and I am currently a sophmore attending Christopher Newport University. I am working towards getting a bachelor's degree in computer science.</p>
+			<video width="320" height="240" controls loop>
+				<source src="../../videos/cellular_automata_video.mov">			  Your browser does not support the video tag.
+			</video>
+			
+			
+		</div>
+
+		<div class='project_text_section'>
+			
+			<div class='project_what_i_learned_text'>
+				<h2>What I learned</h2>
+				<ul>
+				    <li>Introduction to JFrame GUI</li>
+				    <li>Program optimization with 100,000s of objects</li>
+				    <li>Creating, collecting and displaying data</li>
+				    <li>Re-reading and implementing new code months after working on project</li>
+				    <li> Working with class objects and two-dimensional object arrays
+
+				</ul>
+
+			</div>
+			<div class='project_cellular_map_modes'> 
+				<figure class='project_cellular_map_modes_figure'>
+				    <img span='cellular_automata_map_mode_image' src="../../images/cellular_colony_map.png" alt="Cellular Map">
+				    <figcaption>Colonial Map Mode</figcaption>
+				</figure>
+
+				<figure class='project_cellular_map_modes_figure'>
+				    <img span='cellular_automata_map_mode_image' src="../../images/cellular_strength_map.png" alt="Cellular Map">
+				    <figcaption>Cell Strength Map Mode</figcaption>
+				</figure>
 
 
+				<figure class='project_cellular_map_modes_figure'>
+				    <img span='cellular_automata_map_mode_image' src="../../images/cellular_reproduction_map.png" alt="Cellular Map">
+				    <figcaption>Cell Birth-Rate Map Mode</figcaption>
+				</figure>
+
+				
 			</div>
 
 		</div>
